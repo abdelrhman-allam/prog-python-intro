@@ -8,7 +8,7 @@ def toArray(array_text):
 
     return arr
 
-# Bubble sort 
+# Insertion sort 
 # best O(n)
 # avg/worst O(n^2)
 def insertionSort(arr):
@@ -24,7 +24,7 @@ def insertionSort(arr):
 
         arr[j+1] = v # assign to last j + 1
 
-        
+
     return arr
 
 while True:    
