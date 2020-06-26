@@ -1,6 +1,6 @@
 
 
-
+# from input text to array of int
 def toArray(array_text):
     arr = arr_text.rstrip().split(',')
     for i in range(len(arr)):
