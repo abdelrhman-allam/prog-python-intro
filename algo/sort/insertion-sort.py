@@ -1,4 +1,6 @@
-# from input text to array of int
+
+
+
 def toArray(array_text):
     arr = arr_text.rstrip().split(',')
     for i in range(len(arr)):
@@ -6,7 +8,7 @@ def toArray(array_text):
 
     return arr
 
-# Insertion sort 
+# Bubble sort 
 # best O(n)
 # avg/worst O(n^2)
 def insertionSort(arr):
@@ -22,7 +24,7 @@ def insertionSort(arr):
 
         arr[j+1] = v # assign to last j + 1
 
-
+        
     return arr
 
 while True:    
