@@ -6,7 +6,7 @@ def toArray(array_text):
     return arr
 
 # O(n)
-
+# find index and return i
 def search(arr, val):
     for i in range(len(arr)):
         if val == arr[i]:
