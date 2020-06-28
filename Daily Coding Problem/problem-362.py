@@ -25,7 +25,7 @@ def flipxy2(arr):
     print (arr)
     return flip_count
 
-
+# what excepected as a result without flip action
 def flipxy(arr):   
     last_y = len(arr)-1
     while arr[last_y] == 'y':
