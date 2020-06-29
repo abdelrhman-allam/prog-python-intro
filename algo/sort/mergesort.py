@@ -12,29 +12,28 @@ def mergeSort(array):
   return a
 
 def merge(l, r):
-  let a = [ i for i in range(l.length + r.length)]
-  k = 0;
-  i = 0;
-  j = 0; // to pointers to index of each array
-  while(i < l.length && j < r.length):
+  a = [ i for i in range(len(l) + len(r))]
+  k = 0
+  i = 0
+  j = 0 # to pointers to index of each array
+  while(i < len(l) and j < len(r)):
     if l[i] < r[j]:
       a[k] = l[i]
-      i++
+      i = i + 1
     else:
       a[k] = r[j]
-      j++
-    
-    k=k+1;
+      j = j + 1
+    k=k+1
   
   while i < len(l):
     a[k] = l[i]
-    i++
-    k++
+    i = i + 1
+    k = k + 1
   
-   while j < r.length:
+  while j < len(r):
     a[k] = r[j]
-    j++
-    k++
+    j = j + 1
+    k = k + 1
   
   return a
 
