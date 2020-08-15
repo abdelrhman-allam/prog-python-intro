@@ -21,7 +21,7 @@ def draw():
 
     if game_over:
         screen.fill('green')
-        screen.draw.text("Final Score: "+ str(score), topleft=(10,10), fontsize=60) 
+        screen.draw.text("Final Score: "+ str(score), topleft=(10,10), fontsize=70) 
 
 
 def place_coin():
