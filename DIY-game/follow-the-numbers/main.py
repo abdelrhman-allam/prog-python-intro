@@ -17,7 +17,7 @@ for dot in range(10):
     dots.append(actor)
 
 def draw():
-    screen.fill('black')
+    screen.fill('green')
     number = 1 
     
     for dot in dots:
